@@ -335,6 +335,7 @@ vila_series = {
     'Llama-3-VILA1.5-8b': partial(VILA, model_path='Efficient-Large-Model/Llama-3-VILA1.5-8b'),
     'VILA1.5-13b': partial(VILA, model_path='Efficient-Large-Model/VILA1.5-13b'),
     'VILA1.5-40b': partial(VILA, model_path='Efficient-Large-Model/VILA1.5-40b'),
+    'VILA1-7b': partial(VILA, model_path='Efficient-Large-Model/VILA-7b'),
 }
 
 ovis_series = {

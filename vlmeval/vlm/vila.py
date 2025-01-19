@@ -55,6 +55,8 @@ class VILA(BaseModel):
             self.conv_mode = 'vicuna_v1'
         elif '40b' in model_path:
             self.conv_mode = 'hermes-2'
+        elif '7b' in model_path:
+            self.conv_mode = 'vicuna_v1'
 
         kwargs_default = dict(do_sample=False, temperature=0, max_new_tokens=512, top_p=None, num_beams=1, use_cache=True) # noqa E501
 
